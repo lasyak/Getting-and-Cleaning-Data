@@ -41,4 +41,4 @@ all_data <- cbind(X_data, y_data, subject_data)
 avgsofdata <- ddply(all_data, .(subject, activity), function(x) colMeans(x[, 1:66]))
 
 #Write new table with avgs
-write.table(avgsofdata, "averages_data.txt", row.name=FALSE)
+write.table(avgsofdata, "avgsofdata.txt", row.name=FALSE)
