@@ -23,7 +23,7 @@ subject_data <- rbind(subject_train, subject_test)
 # Read features data
 featuresdat <- read.table("features.txt")
 
-#Mean and std dev for measurements
+# Mean and std dev for measurements
 meanandstddev <- grep("-(mean|std)\\(\\)", featuresdat[, 2])
 X_data <- X_data[, meanandstddev]
 names(X_data) <- featuresdat[meanandstddev, 2]
