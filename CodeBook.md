@@ -19,5 +19,5 @@ This describes the variables, the data, and the transformations I used to clean 
 * y_data: merges y train and test data
 * subject_data: merges subject train and test data
 * featuresdat and activityname give correct labels and names, respectively.
-* all_data: merges the vars x_data, y_data and subject_data into a data set.
+* all_data: merges the vars X_data, y_data and subject_data into a data set.
 * avgsofdata stores data with averages of each variable for each subject and activity. 
